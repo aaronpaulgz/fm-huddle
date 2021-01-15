@@ -1,0 +1,109 @@
+:root {
+  --Violet: hsl(257, 40%, 49%);
+  --Soft-Magenta: hsl(300, 69%, 71%);
+  --Primary: "Poppins";
+  --Secondary: "Open Sans";
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--Secondary);
+}
+
+body {
+  background-color: var(--Violet);
+  background-image: url(./images/bg-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  margin: 0 auto;
+  width: 320px;
+  max-width: 440px;
+}
+
+.hero--container {
+  margin: 24px 0;
+  width: 320px;
+  max-width: 440px;
+}
+
+.logo--container {
+  width: 100%;
+  text-align: left;
+  margin: 24px 0 0 0;
+}
+
+.logo--container img {
+  width: 140px;
+}
+
+.hero--img {
+  width: 100%;
+  margin: 42px 0;
+}
+
+.hero--img img {
+  width: 100%;
+}
+
+.description {
+  text-align: center;
+  color: white;
+}
+
+.description h1 {
+  font-family: var(--Primary);
+}
+
+.description p {
+  margin: 24px 0 0 0;
+}
+
+.description button {
+  margin-top: 32px;
+  height: 52px;
+  width: 70%;
+  border: none;
+  border-radius: 48px;
+  background-color: white;
+  color: var(--Violet);
+  font-size: 1rem;
+  outline: none;
+  -webkit-box-shadow: 0px 10px 24px 0px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 0px 10px 24px 0px rgba(0, 0, 0, 0.24);
+  box-shadow: 0px 10px 24px 0px rgba(0, 0, 0, 0.24);
+}
+
+.description button:hover {
+  color: white;
+  background-color: var(--Soft-Magenta);
+}
+
+.rrss--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 72px 0 24px 0;
+}
+
+.rrss {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  border: solid 1px white;
+  border-radius: 50%;
+}
+
+.rrss img {
+  width: 16px;
+}

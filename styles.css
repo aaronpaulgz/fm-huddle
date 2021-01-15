@@ -107,3 +107,65 @@ body {
 .rrss img {
   width: 16px;
 }
+
+@media screen and (min-width: 1200px) {
+  body {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background-image: url(./images/bg-desktop.svg);
+  }
+
+  .main {
+    width: 1240px;
+    max-width: 1400px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+  }
+
+  .hero--container {
+    width: 650px;
+    max-width: 750px;
+  }
+
+  .logo--container img {
+    width: 240px;
+  }
+
+  .hero--img img {
+    margin: 100px 0;
+  }
+
+  .description {
+    padding: 64px;
+    width: 550px;
+    max-width: 650px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+  }
+
+  .description h1 {
+    margin: 112px 0 0 0;
+    font-size: 2.4rem;
+  }
+
+  .description p {
+    margin: 32px 0 0 0;
+  }
+
+  .description button {
+    width: 240px;
+    height: 64px;
+    font-size: 1.2rem;
+  }
+
+  .rrss--container {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}
